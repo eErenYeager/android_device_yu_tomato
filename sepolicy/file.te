@@ -1,0 +1,2 @@
+type touchpanel_sysfs, fs_type, sysfs_type;
+type ylparams_device, file_type, dev_type;

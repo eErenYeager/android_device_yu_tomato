@@ -22,3 +22,6 @@ TARGET_BOARD_INFO_FILE := device/yu/tomato/board-info.txt
 
 # Inherit from proprietary files
 include vendor/yu/tomato/BoardConfigVendor.mk
+
+#Selinux
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
