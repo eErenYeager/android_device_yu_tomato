@@ -23,6 +23,9 @@ DEVICE_PATH := device/yu/tomato
 # Assertions
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
+# Audio
+AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 

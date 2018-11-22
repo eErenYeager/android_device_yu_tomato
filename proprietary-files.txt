@@ -208,7 +208,7 @@ vendor/lib64/libmm-abl-oem.so
 # Qualcomm framework
 bin/irsc_util:vendor/bin/irsc_util
 vendor/lib64/libdiag.so
-vendor/lib64/libdsi_netctrl.so|7268d10bf886792f4bbcc080aa6d906e2c128758
+vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libdsutils.so
 vendor/lib64/libidl.so
 vendor/lib64/libqcci_legacy.so
@@ -224,7 +224,7 @@ vendor/lib64/libqmiservices.so
 vendor/lib64/libqmi.so
 vendor/lib64/libsmemlog.so
 vendor/lib/libdiag.so
-vendor/lib/libdsi_netctrl.so|8ffec0ddee840487cd06901beb8d19311d697312
+vendor/lib/libdsi_netctrl.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
 vendor/lib/libqcci_legacy.so
@@ -246,14 +246,14 @@ bin/netmgrd:vendor/bin/netmgrd|f4afd91b2f91fcad9f756a339ecae859e2cba9c1
 bin/qmuxd:vendor/bin/qmuxd|b1b3c88067054ddbc224e30707e1eb99be079d6e
 bin/radish:vendor/bin/radish
 bin/rmt_storage:vendor/bin/rmt_storage
-etc/permissions/qcnvitems.xml:vendor/etc/permissions/qcnvitems.xml|dd47edbccc24a5c254dca18250c0136ecab4f0d6
-etc/permissions/qcrilhook.xml:vendor/etc/permissions/qcrilhook.xml|5a65b197fbc65e3e89e829d07da11904eae3e938
+etc/permissions/qcnvitems.xml:vendor/etc/permissions/qcnvitems.xml
+etc/permissions/qcrilhook.xml:vendor/etc/permissions/qcrilhook.xml
 -framework/qcnvitems.jar:vendor/framework/qcnvitems.jar
 -framework/qcrilhook.jar:vendor/framework/qcrilhook.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-vendor/lib64/com.quicinc.cne.api@1.0.so|503825cc8a3c0d422e16e04b398d2c1924e518ca
-vendor/lib64/com.quicinc.cne.constants@1.0.so|a60fde6f9328635bf43bb7008dd9517e4e749e8b
-vendor/lib64/libcneapiclient.so|33e7465996749a8823ac03e34a94e3112c88dda4
+vendor/lib64/com.quicinc.cne.api@1.0.so
+vendor/lib64/com.quicinc.cne.constants@1.0.so
+vendor/lib64/libcneapiclient.so
 vendor/lib64/libconfigdb.so
 vendor/lib64/liblqe.so
 vendor/lib64/libmdmdetect.so
@@ -265,6 +265,40 @@ vendor/lib64/libril-qcril-hook-oem.so
 vendor/lib64/libsystem_health_mon.so
 vendor/lib64/libxml.so
 vendor/lib/libmdmdetect.so
+
+# Radio - IMS
+bin/vendor/ims_rtp_daemon
+bin/vendor/imscmservice
+bin/vendor/imsdatadaemon
+bin/vendor/imsqmidaemon
+etc/vendor/permissions/imscm.xml
+etc/vendor/permissions/qti_permissions.xml
+-vendor/framework/imscmlibrary.jar
+-vendor/app/ims/ims.apk
+-vendor/app/imssettings/imssettings.apk
+vendor/lib64/lib-dplmedia.so
+vendor/lib64/lib-ims-rcscmjni.so
+vendor/lib64/lib-imsSDP.so
+vendor/lib64/lib-imscamera.so
+vendor/lib64/lib-imsdpl.so
+vendor/lib64/lib-imsqimf.so
+vendor/lib64/lib-imsrcs.so
+vendor/lib64/lib-imsrcscm.so
+vendor/lib64/lib-imsrcscmclient.so
+vendor/lib64/lib-imsrcscmservice.so
+vendor/lib64/lib-imss.so
+vendor/lib64/lib-imsvt.so
+vendor/lib64/lib-imsxml.so
+vendor/lib64/lib-rcsimssjni.so
+vendor/lib64/lib-rcsjni.so
+vendor/lib64/lib-rtpcommon.so
+vendor/lib64/lib-rtpcore.so
+vendor/lib64/lib-rtpdaemoninterface.so
+vendor/lib64/lib-rtpsl.so
+vendor/lib64/libimscamera_jni.so
+vendor/lib64/libimsmedia_jni.so
+vendor/lib64/libvcel.so
+vendor/lib64/libvoice-svc.so
 
 # Signed Venus (media) firmware
 etc/firmware/venus.b00:vendor/firmware/venus.b00
