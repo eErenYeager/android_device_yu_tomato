@@ -284,12 +284,12 @@ vendor/lib64/libxml.so
 vendor/lib/libmdmdetect.so
 
 # Radio - IMS
-bin/vendor/ims_rtp_daemon
-bin/vendor/imscmservice
-bin/vendor/imsdatadaemon
-bin/vendor/imsqmidaemon
-etc/vendor/permissions/imscm.xml
-etc/vendor/permissions/qti_permissions.xml
+vendor/bin/ims_rtp_daemon
+vendor/bin/imscmservice
+vendor/bin/imsdatadaemon
+vendor/bin/imsqmidaemon
+vendor/etc/permissions/imscm.xml
+vendor/etc/permissions/qti_permissions.xml
 -vendor/framework/imscmlibrary.jar
 -vendor/app/ims/ims.apk
 -vendor/app/imssettings/imssettings.apk
