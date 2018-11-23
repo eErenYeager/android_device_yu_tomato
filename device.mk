@@ -61,9 +61,7 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model ro.sf.lcd_density
 
 # GPS
 PRODUCT_PACKAGES += \
-    gps.msm8916 \
-    libshims_get_process_name \
-    android.hardware.gnss@1.0-impl
+    gps.msm8916
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/flp.conf:system/etc/flp.conf \

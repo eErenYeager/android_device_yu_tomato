@@ -26,7 +26,7 @@
 #
 
 on init
-    export LD_SHIM_LIBS /system/vendor/lib64/lib-imsdpl.so|libshim_boringssl.so:/system/vendor/lib64/libizat_core.so|libshims_get_process_name.so
+    export LD_SHIM_LIBS /system/vendor/lib64/lib-imsdpl.so|libshim_boringssl.so
 
 on boot
     # change file owner for factory test
@@ -58,12 +58,12 @@ service imsqmidaemon /system/vendor/bin/imsqmidaemon
     class main
     user system
     socket ims_qmid stream 0660 system radio
-    group radio net_raw log diag
+    group radio net_raw log qcom_diag
 service imsdatadaemon /system/vendor/bin/imsdatadaemon
     class main
     user system
     socket ims_datad stream 0660 system radio
-    group system wifi radio inet net_raw log diag net_admin
+    group system wifi radio inet net_raw log qcom_diag net_admin
     disabled
 on property:sys.ims.QMI_DAEMON_STATUS=1
     start imsdatadaemon
@@ -71,12 +71,12 @@ service ims_rtp_daemon /system/vendor/bin/ims_rtp_daemon
    class main
    user system
    socket ims_rtpd stream 0660 system radio
-   group radio net_raw diag diag log
+   group radio net_raw diag qcom_diag log
    disabled
 service imscmservice /system/vendor/bin/imscmservice
    class main
    user system
-   group radio net_raw diag diag log
+   group radio net_raw diag qcom_diag log
    disabled
 on property:sys.ims.DATA_DAEMON_STATUS=1
     start ims_rtp_daemon
