@@ -108,6 +108,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml
 
+# Telephony packages
+PRODUCT_PACKAGES += \
+    ims-ext-common \
+    telephony-ext
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 # Widevine DRM symbol, boringssl-compat subset
 PRODUCT_PACKAGES += \
     libshim_parcel \
