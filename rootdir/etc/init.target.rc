@@ -55,18 +55,18 @@ service baseband-sh /system/bin/sh /system/etc/set_baseband.sh
 on init
 
 
-service imsqmidaemon /system/bin/imsqmidaemon
+service imsqmidaemon /system/vendor/bin/imsqmidaemon
     class main
     user system
     socket ims_qmid stream 0660 system radio
-    group radio net_raw log diag
+    group radio net_raw log oem_2950  diag
 
 
-service imsdatadaemon /system/bin/imsdatadaemon
+service imsdatadaemon /system/vendor/bin/imsdatadaemon
     class main
     user system
     socket ims_datad stream 0660 system radio
-    group system wifi radio inet net_raw log diag net_admin
+    group system wifi radio inet net_raw log oem_2950 diag net_admin
     disabled
 
 
@@ -75,17 +75,17 @@ on property:sys.ims.QMI_DAEMON_STATUS=1
 
 
 
-service ims_rtp_daemon /system/bin/ims_rtp_daemon
+service ims_rtp_daemon /system/vendor/bin/ims_rtp_daemon
    class main
    user system
    socket ims_rtpd stream 0660 system radio
-   group radio net_raw diag  log
+   group radio net_raw oem_2950 diag  log
    disabled
 
-service imscmservice /system/bin/imscmservice
+service imscmservice /system/vendor/bin/imscmservice
    class main
    user system
-   group radio net_raw diag log
+   group radio net_raw oem_2950 diag log
    disabled
 
 on property:sys.ims.DATA_DAEMON_STATUS=1
