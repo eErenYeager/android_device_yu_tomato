@@ -1,4 +1,4 @@
-#!/system/bin/sh
+#!/vendor/bin/sh
 # Copyright (c) 2015, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -28,13 +28,13 @@
 #
 #
 
-ims_disabled=`getprop persist.ims.disabled`
-target=`getprop ro.build.product`
+ims_disabled=`/vendor/bin/getprop persist.ims.disabled`
+target=`/vendor/bin/getprop ro.build.product`
 
 if [ "$ims_disabled" = "1" ]; then
     echo "ims is disabled"
-    setprop service.qti.ims.enabled 0
+    /vendor/bin/setprop service.qti.ims.enabled 0
 else
     echo "ims is enabled"
-    setprop service.qti.ims.enabled 1
+    /vendor/bin/setprop service.qti.ims.enabled 1
 fi
