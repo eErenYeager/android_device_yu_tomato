@@ -8,3 +8,4 @@ allow set_baseband firmware_file:dir search;
 allow set_baseband firmware_file:file r_file_perms;
 allow set_baseband self:capability { dac_override dac_read_search };
 allow set_baseband shell_exec:file { entrypoint read };
+allow set_baseband vendor_toolbox_exec:file execute_no_trans;
