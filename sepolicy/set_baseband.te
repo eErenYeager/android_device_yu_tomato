@@ -1,3 +1,9 @@
 type set_baseband, domain;
 type set_baseband_exec, exec_type, file_type;
 init_daemon_domain(set_baseband)
+set_prop(set_baseband, baseband_prop)
+allow set_baseband firmware_file:file { open read };
+allow set_baseband init:unix_stream_socket connectto;
+allow set_baseband property_socket:sock_file write;
+allow set_baseband self:capability dac_override;
+allow set_baseband vendor_toolbox_exec:file execute_no_trans;

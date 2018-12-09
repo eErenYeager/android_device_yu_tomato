@@ -1,1 +1,0 @@
-allow init vendor_toolbox_exec:file execute_no_trans;
