@@ -272,7 +272,7 @@ bin/imscmservice:vendor/bin/imscmservice
 bin/imsdatadaemon:vendor/bin/imsdatadaemon
 bin/imsqmidaemon:vendor/bin/imsqmidaemon
 etc/permissions/imscm.xml:vendor/etc/permissions/imscm.xml
-etc/permissions/qti_permissions.xml:etc/permissions/qti_permissions.xml
+etc/permissions/qti_permissions.xml:vendor/etc/permissions/qti_permissions.xml
 -framework/imscmlibrary.jar:vendor/framework/imscmlibrary.jar
 -vendor/app/ims/ims.apk
 -vendor/app/imssettings/imssettings.apk
