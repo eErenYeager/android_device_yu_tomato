@@ -40,11 +40,6 @@ on boot
     chmod 0660 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-005d/keypad_enable
 
 
-service baseband-sh /system/bin/sh /system/etc/set_baseband.sh
-    class late_start
-    user root
-    oneshot
-
 on init
 
 
