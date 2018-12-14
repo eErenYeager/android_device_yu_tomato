@@ -54,7 +54,6 @@ LZMA_RAMDISK_TARGETS := recovery
 TARGET_KERNEL_CONFIG := lineageos_tomato_defconfig
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # LineageHW
 BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/lineagehw
