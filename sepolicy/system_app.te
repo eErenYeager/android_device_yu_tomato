@@ -1,3 +1,19 @@
 allow system_app sensors_device:chr_file rw_file_perms;
 
-
+get_prop(system_app, bg_boot_complete_prop)
+get_prop(system_app, bg_daemon_prop)
+get_prop(system_app, coresight_prop)
+get_prop(system_app, nfc_nq_prop)
+get_prop(system_app, opengles_prop)
+get_prop(system_app, per_mgr_state_prop)
+get_prop(system_app, qcom_ims_prop)
+get_prop(system_app, qdma_prop)
+get_prop(system_app, scr_enabled_prop)
+get_prop(system_app, sdm_idle_time_prop)
+get_prop(system_app, spcomlib_prop)
+get_prop(system_app, sys_usb_configfs_prop)
+get_prop(system_app, sys_usb_controller_prop)
+get_prop(system_app, sys_usb_tethering_prop)
+get_prop(system_app, uicc_prop)
+get_prop(system_app, vendor_rild_libpath_prop)
+get_prop(system_app, wcnss_prop)
