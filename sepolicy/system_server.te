@@ -1,7 +1,7 @@
 allow system_server touchpanel_sysfs:dir search;
 allow system_server touchpanel_sysfs:file rw_file_perms;
 
-allow system_server sensors_device:chr_file { read write open ioctl };
+allow system_server sensors_device:chr_file rw_file_perms;
 
 get_prop(system_server, bg_boot_complete_prop)
 get_prop(system_server, bg_daemon_prop)
