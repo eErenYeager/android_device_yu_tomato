@@ -53,8 +53,7 @@ PRODUCT_PACKAGES += \
     Snap
 
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4-impl \
-    camera.device@1.0-impl
+    android.hardware.camera.provider@2.4-impl 
 
 # Due to multi-density builds, these are set by init
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model ro.sf.lcd_density
