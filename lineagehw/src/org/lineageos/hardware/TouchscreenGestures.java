@@ -51,6 +51,9 @@ public class TouchscreenGestures {
         new TouchscreenGesture(6, "Letter M", 256),
         new TouchscreenGesture(7, "Letter O", 253),
         new TouchscreenGesture(8, "Letter W", 257),
+        new TouchscreenGesture(9, "Letter S", 260),
+        new TouchscreenGesture(10, "Letter V", 259),
+        new TouchscreenGesture(11, "Letter Z", 258),
     };
 
     /**
@@ -113,6 +116,15 @@ public class TouchscreenGestures {
                 break;
             case 8:
                 cmd = new String[] { "w=" };
+                break;
+            case 9:
+                cmd = new String[] { "s=" };
+                break;
+            case 10:
+                cmd = new String[] { "v=" };
+                break;
+            case 11:
+                cmd = new String[] { "z=" };
                 break;
             default:
                 return false;

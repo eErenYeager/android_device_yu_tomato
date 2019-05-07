@@ -19,7 +19,7 @@ cc_binary {
     relative_install_path: "hw",
     vendor: true,
     srcs: [
-        "TouchscreenGesture.cpp",
+        "KeyDisabler.cpp",
         "service.cpp"
     ],
     shared_libs: [
