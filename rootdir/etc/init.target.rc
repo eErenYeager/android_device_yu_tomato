@@ -38,10 +38,8 @@ on boot
     chown root system /sys/android_touch/doubletap2wake
     chmod 0660 /sys/android_touch/doubletap2wake
 
-    chown root system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-005d/keypad_enable
-    chmod 0660 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-005d/keypad_enable
 
-
+    # Vibrator permissions
     chown root system /sys/class/timed_output/vibrator/vtg_level
     chmod 0660 /sys/class/timed_output/vibrator/vtg_level
 
