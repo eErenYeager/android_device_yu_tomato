@@ -169,7 +169,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # Widevine DRM symbol, boringssl-compat subset
 PRODUCT_PACKAGES += \
-    libshim_boringssl
+    libshims_boringssl \
+    libshims_ims
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
