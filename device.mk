@@ -59,8 +59,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     lineage_charger_res_images \
-    font_log.png \
-    libhealthd.lineage
+    font_log.png
 
 # Due to multi-density builds, these are set by init
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model ro.sf.lcd_density
