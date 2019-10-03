@@ -59,7 +59,7 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(DEVICE_PATH)/lineagehw|**/*.java
 
 # Power
-TARGET_POWER_SET_FEATURE_LIB := libpower_set_feature_tomato
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/touchscreen/touchscreen_dev/gesture_ctrl"
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
