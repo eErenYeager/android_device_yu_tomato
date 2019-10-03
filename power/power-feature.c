@@ -26,7 +26,7 @@
 #include <hardware/power.h>
 
 #define LOG_TAG "PowerHAL feature"
-#include <utils/Log.h>
+#include <log/log.h>
 
 #define TAP_TO_WAKE_NODE "/sys/devices/virtual/touchscreen/touchscreen_dev/gesture_ctrl"
 
@@ -56,8 +56,7 @@ static int sysfs_write(char *path, char *s)
     return ret;
 }
 
-void set_device_specific_feature(struct power_module *module __unused,
-        feature_t feature, int state)
+void set_device_specific_feature(feature_t feature, int state)
 {
     if (feature == POWER_FEATURE_DOUBLE_TAP_TO_WAKE) {
         sysfs_write(TAP_TO_WAKE_NODE,
