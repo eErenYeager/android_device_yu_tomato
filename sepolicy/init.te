@@ -1,0 +1,2 @@
+allow init sysfs:file setattr;
+allow init proc:file r_file_perms;
