@@ -62,7 +62,7 @@ JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(DEVICE_PATH)/lineagehw|**/*.jav
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Power
-TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/touchscreen/touchscreen_dev/gesture_ctrl"
+TARGET_POWER_SET_FEATURE_LIB := libpower_set_feature_tomato
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
