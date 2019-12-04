@@ -77,11 +77,11 @@
     <integer name="config_screenBrightnessDark">2</integer>
 
     <!-- Minimum screen brightness allowed by the power manager. -->
-    <integer name="config_screenBrightnessDim">7</integer>
+    <integer name="config_screenBrightnessDim">3</integer>
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
-    <integer name="config_screenBrightnessSettingMinimum">7</integer>
+    <integer name="config_screenBrightnessSettingMinimum">4</integer>
 
     <!-- Flag indicating whether we should enable the automatic brightness in Settings.
                   config_hardware_automatic_brightness_available is not set, so we will use software implementation -->
