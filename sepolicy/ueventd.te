@@ -1,0 +1,3 @@
+allow ueventd hal_light_default_exec:dir relabelto;
+allow ueventd hal_light_default_exec:file relabelto;
+allow ueventd hal_light_default_exec:lnk_file relabelto;
