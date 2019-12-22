@@ -60,6 +60,7 @@ PRODUCT_PACKAGES += \
 #charger
 PRODUCT_PACKAGES += \
     chargeonlymode
+include $(LOCAL_PATH)/rootdir/charger/charger.mk
 
 # Due to multi-density builds, these are set by init
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model ro.sf.lcd_density
