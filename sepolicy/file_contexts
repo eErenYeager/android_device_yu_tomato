@@ -3,8 +3,17 @@
 /sys/devices/virtual/touchscreen/touchscreen_dev/gesture_ctrl   u:object_r:touchpanel_sysfs:s0
 /sys/devices/soc\.0/78b9000\.i2c/i2c-5/5-005d/keypad_enable     u:object_r:touchpanel_sysfs:s0
 
+/sys/devices/soc\.0/78b6000\.i2c/i2c-0/0-000b/power_supply/lc709203_battery(/.*)?      u:object_r:sysfs_battery_supply:s0
+
 # Yulong interfaces
 /dev/yl_alsprox_sensor                                          u:object_r:sensors_device:s0
 /dev/yl_params1                                                 u:object_r:ylparams_device:s0
 
-/system/bin/yl_btmac                                            u:object_r:bluetooth_loader_exec:s0
+
+/system/bin/yl_btmac                                                                   u:object_r:bluetooth_loader_exec:s0
+
+# Light HAL
+/sys/devices/soc\.0/leds-qpnp-10/leds/button-backlight(/.*)?                           u:object_r:hal_light_default_exec:s0
+
+# sysfs files
+/sys/devices/virtual/block/zram\d+(/.*)?                                               u:object_r:sysfs_zram:s0

@@ -1,0 +1,14 @@
+
+allow priv_app mnt_media_rw_file:dir search;
+allow priv_app sysfs:file read;
+allow priv_app sysfs:file open;
+allow priv_app device:dir open;
+allow priv_app proc_interrupts:file open;
+allow priv_app proc_modules:file open;
+allow priv_app proc_modules:file getattr;
+allow priv_app proc:file getattr;
+allow priv_app proc:file open;
+allow priv_app device:dir open;
+allow priv_app sysfs_android_usb:file open;
+
+

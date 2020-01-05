@@ -1,2 +1,5 @@
+allow init shell_exec:file execute;
+allow init system_file:file execute;
 allow init sysfs:file setattr;
+allow init proc:file read;
 allow init proc:file r_file_perms;

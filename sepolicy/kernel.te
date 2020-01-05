@@ -1,0 +1,4 @@
+neverallow kernel kernel:capability { dac_override };
+neverallow kernel kernel:capability { dac_read_search };
+allow kernel untrusted_app:fd use;
+
