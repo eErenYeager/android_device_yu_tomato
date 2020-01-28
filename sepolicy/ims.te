@@ -1,1 +1,3 @@
 allow ims self:capability { net_raw };
+allow ims netd_service:service_manager find;
+allow ims dnsresolver_service:service_manager find;

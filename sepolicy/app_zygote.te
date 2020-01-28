@@ -1,0 +1,4 @@
+allow app_zygote ion_device:chr_file r_file_perms;
+allow app_zygote ion_device:chr_file open;
+allow app_zygote resourcecache_data_file:dir search;
+

@@ -1,0 +1,3 @@
+allow ueventd proc:file read;
+allow ueventd proc:file open;
+
