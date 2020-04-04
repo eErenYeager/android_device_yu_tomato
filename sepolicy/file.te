@@ -1,2 +1,2 @@
 type touchpanel_sysfs, fs_type, sysfs_type;
-
+type proc_swap, fs_type;
