@@ -268,8 +268,6 @@ vendor/lib64/libxml.so
 vendor/lib/libmdmdetect.so
 
 # Radio - IMS
-bin/ims_rtp_daemon:vendor/bin/ims_rtp_daemon
-bin/imscmservice:vendor/bin/imscmservice
 bin/imsdatadaemon:vendor/bin/imsdatadaemon
 bin/imsqmidaemon:vendor/bin/imsqmidaemon
 etc/permissions/imscm.xml:vendor/etc/permissions/imscm.xml
