@@ -59,10 +59,6 @@ BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DT := true
 LZMA_RAMDISK_TARGETS := recovery
 TARGET_KERNEL_CONFIG := lineageos_tomato_defconfig
-TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_HEADER_ARCH := arm64
-KERNEL_TOOLCHAIN := /home/abhishekt295/aarch64-linux-android/bin
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-cortex_a53-linux-android-
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
