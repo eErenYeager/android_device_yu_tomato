@@ -187,10 +187,25 @@ vendor/lib/libscale.so|7938a028168c3dc5a84efa5c0e0b88d8f3c6292c
 etc/firmware/a420_pfp.fw:vendor/firmware/a420_pfp.fw
 etc/firmware/a420_pm4.fw:vendor/firmware/a420_pm4.fw
 
-# Media
-vendor/lib/libOmxAacDec.so
-vendor/lib/libOmxEvrcDec.so
-vendor/lib/libOmxQcelp13Dec.so
+# Media - from Impress_Grip-user 7.1.2 HW1.R1.V09 22 release-keys
+vendor/lib/libFileMux.so|3b50e97bf4b2f1759f52e3b02f4c7ca8ecc7169f
+vendor/lib/libOmxAacDec.so|d0d61fb2105a978da8009c09ee1217f4a8d430a1
+vendor/lib/libOmxEvrcDec.so|f9e1d26c46abe3e2b613df1ce01a70f9563f608e
+vendor/lib/libOmxMux.so|25cec72d18dd7e1a72ec60e8c66e2ea52314bf38
+vendor/lib/libOmxQcelp13Dec.so|daecca80895db152acf7bd94af361303b1548f1a
+vendor/lib/libmmosal.so|4345d3e070fe8bb24c28f489697693b26749f6a2
+vendor/lib/libmmparser.so|ff3cfea0c63a7052a273c594f4095f15902052df
+vendor/lib/libmmparser_lite.so|0ce0f3e149bd90b6b0aae0653e82f54a2b57db85
+vendor/lib/libmmrtpdecoder.so|0da3780983bc709b525635f021618d648a7dc8b1
+vendor/lib/libmmrtpencoder.so|3baa6cfe729887d518f5ed93f5c66c900c066d31
+vendor/lib64/libFileMux.so|ccec10debcc0693dbadb4b4f2469173a71adf0fb
+vendor/lib64/libOmxAacDec.so|d49d9a0860a9f555d10c6cd26e8c24bce0c66ce6
+vendor/lib64/libOmxMux.so|5199da33a11db4a1b01e4f62dabe4f61af34e62e
+vendor/lib64/libmmosal.so|27968c165497861e630377a8799afca898bc7934
+vendor/lib64/libmmparser.so|e7a6c9dbce99a0053a268238f75a54494e9a42a0
+vendor/lib64/libmmparser_lite.so|d617ef554feff29e5f8b8c693b06d4c85a984b2f
+vendor/lib64/libmmrtpdecoder.so|a001e967f80d575a06e9c3347e8141fd3d514c76
+vendor/lib64/libmmrtpencoder.so|3319425c10c1eba217489d03ae4ccdd584699820
 
 # Perf
 bin/msm_irqbalance:vendor/bin/msm_irqbalance
