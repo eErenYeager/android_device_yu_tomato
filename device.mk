@@ -159,12 +159,6 @@ PRODUCT_PACKAGES += \
     sensors.msm8916
 
 # Telephony packages
-PRODUCT_PACKAGES += \
-    ims-ext-common \
-    telephony-ext
-PRODUCT_BOOT_JARS += \
-    telephony-ext
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
 
