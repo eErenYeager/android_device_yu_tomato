@@ -284,14 +284,17 @@ vendor/lib64/libsystem_health_mon.so
 vendor/lib64/libxml.so
 vendor/lib/libmdmdetect.so
 
+# Radio - IMS - from bullhead
+-vendor/app/ims/ims.apk|7d9f1db3db58e1dc6ba7f5396171b1efb9ae55f0
+vendor/lib64/libimscamera_jni.so|31c52d908a3c735895c3dbdf7844ec774357cac7
+vendor/lib64/libimsmedia_jni.so|73cb1a5e3a4f5bb7e65f26fbe7acc435bc500646
+
 # Radio - IMS
 bin/imsdatadaemon:vendor/bin/imsdatadaemon
 bin/imsqmidaemon:vendor/bin/imsqmidaemon
 etc/permissions/imscm.xml:vendor/etc/permissions/imscm.xml
 etc/permissions/qti_permissions.xml:vendor/etc/permissions/qti_permissions.xml
 -framework/imscmlibrary.jar:vendor/framework/imscmlibrary.jar
--vendor/app/ims/ims.apk
--vendor/app/imssettings/imssettings.apk
 vendor/lib64/lib-dplmedia.so
 vendor/lib64/lib-ims-rcscmjni.so
 vendor/lib64/lib-imsSDP.so
@@ -311,8 +314,6 @@ vendor/lib64/lib-rtpcommon.so
 vendor/lib64/lib-rtpcore.so
 vendor/lib64/lib-rtpdaemoninterface.so
 vendor/lib64/lib-rtpsl.so
-vendor/lib64/libimscamera_jni.so
-vendor/lib64/libimsmedia_jni.so
 vendor/lib64/libvcel.so
 vendor/lib64/libvoice-svc.so
 
