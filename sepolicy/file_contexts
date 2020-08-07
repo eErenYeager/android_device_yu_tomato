@@ -1,6 +1,5 @@
 /sys/devices/virtual/touchscreen/touchscreen_dev/gesture_ctrl                          u:object_r:touchpanel_sysfs:s0
 /sys/devices/soc\.0/78b9000\.i2c/i2c-5/5-005d/keypad_enable                            u:object_r:touchpanel_sysfs:s0
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch@1\.0-service.tomato              u:object_r:hal_lineage_touch_default_exec:s0
 
 
 /sys/devices/soc\.0/78b6000\.i2c/i2c-0/0-000b/power_supply/lc709203_battery(/.*)?      u:object_r:sysfs_battery_supply:s0

@@ -58,8 +58,6 @@ BOARD_KERNEL_SEPARATED_DT := true
 LZMA_RAMDISK_TARGETS := recovery
 TARGET_KERNEL_CONFIG := lineageos_tomato_defconfig
 
-# HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/touchscreen/touchscreen_dev/gesture_ctrl"
