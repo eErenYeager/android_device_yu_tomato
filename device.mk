@@ -21,7 +21,7 @@ $(call inherit-product, device/cyanogen/msm8916-common/msm8916.mk)
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-arrow
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
