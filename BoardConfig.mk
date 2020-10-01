@@ -67,7 +67,7 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Power
-TARGET_POWER_SET_FEATURE_LIB := libpower_set_feature_tomato
+TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
