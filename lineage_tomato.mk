@@ -16,7 +16,7 @@
 $(call inherit-product, device/yu/tomato/full_tomato.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_mini_go_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_mini_phone.mk)
 $(call inherit-product, device/yu/tomato/go_defaults_common.mk)
 
 # Must define platform variant before including any common things
