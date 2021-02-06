@@ -209,12 +209,6 @@ etc/firmware/a420_pfp.fw:vendor/firmware/a420_pfp.fw|ceb61d9f1385b3f2956d72f33e0
 etc/firmware/a420_pm4.fw:vendor/firmware/a420_pm4.fw|96addc1f5cb6dd3a57fc40ef0a6ba8721d5b601f
 
 # Media - from LA.BR.1.2.9.1-02310-8x16.0
-lib/libmmosal.so|3f0e86afd0c322f32b78e473dbc17368ec6f91f6
-lib/libmmparser_lite.so|3f0a628b0ae2d1c6cd729b2dc9bf467301a016c4
-lib/vendor.qti.hardware.vpp@1.1.so|e6e722cae86a788f4f579a33e41247d72832eec0
-lib64/libmmosal.so|b0e9f36e3bbaf7f839333b70e714b3f27fadb886
-lib64/libmmparser_lite.so|b5028731aa43c60289283f2e272336067e622092
-lib64/vendor.qti.hardware.vpp@1.1.so|7dbc90158f9e7b3675372b65e095f9a8fb0812b5
 vendor/lib/libAlacSwDec.so|57969ad9069f7109518eff3bf5a8071ee62c299c
 vendor/lib/libApeSwDec.so|31ef5e2f5344e7948dced4e683ebf4ae585b4681
 vendor/lib/libI420colorconvert.so|9d109a3afc089497f2977ccffdbd27683ae950a9
@@ -225,7 +219,6 @@ vendor/lib/libOmxAlacDecSw.so|667c74bd6f9f6ce2135f107db229cb4157c0ed54
 vendor/lib/libOmxApeDecSw.so|6b0bfa43b0c9a7ce32d3ed3780fbe29e4e55aefa
 vendor/lib/libOmxEvrcDec.so|7ea1f411c6a6830d941c2256f5235a3e220ffec4
 vendor/lib/libOmxQcelp13Dec.so|5f6ebc980328fe43be545ae3ffe646a05b361228
-vendor/lib/vendor.qti.hardware.vpp@1.1_vendor.so|192d63992f0f6cf62391d00b491bd392e495fb2b
 vendor/lib64/libAlacSwDec.so|75a085c78f6cf2ee22703ab4df893d14b9e99fd7
 vendor/lib64/libApeSwDec.so|b451746b7353282303cf227da1579122d2138eb9
 vendor/lib64/libI420colorconvert.so|131dd26de7d05f530f10df05044a9bde08c512b9
@@ -236,7 +229,6 @@ vendor/lib64/libOmxAlacDecSw.so|df6a8acd9eec99beb7172c495f221299fb71b68e
 vendor/lib64/libOmxApeDecSw.so|7bda4dc1164a7b0ca8407e5ef5cbf5a42209e161
 vendor/lib64/libOmxEvrcDec.so|523a907c13c0fd280407c8e3a9f6f911b3f0af31
 vendor/lib64/libOmxQcelp13Dec.so|1022e6f93a026c64aecf7537025e2ddfd8885973
-vendor/lib64/vendor.qti.hardware.vpp@1.1_vendor.so|cb6fa38c23656e2e930542b215c834a0c6f7ef47
 
 # Perf
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
