@@ -253,38 +253,12 @@ vendor/lib64/vendor.qti.hardware.perf@2.0.so
 
 # Postprocessing - from LA.BR.1.2.9.1-02310-8x16.0
 bin/mm-pp-daemon:vendor/bin/mm-pp-daemon|0e2db7244e7616154cb6990bfac76dd5711afb34
-etc/permissions/com.qti.snapdragon.sdk.display.xml|bd2a3394bdd6ec4e94fa6a59e816a97e89940ab6
--framework/com.qti.snapdragon.sdk.display.jar|103a8e046411d07cc140820b92827d4d4ae67e6b
-lib/vendor.display.color@1.0.so|6c7607135572249b34c5bf53171abf040a8fed30
-lib/vendor.display.config@1.0.so|fd190afe8af63925c34d969de14767fd4a704812
-lib/vendor.display.postproc@1.0.so|27510c5ef88c313305d6d5bc10c32b8331533727
-lib/vendor.qti.hardware.qdutils_disp@1.0.so|d6971ea8c63df7e7dce670733e4f6de08867977c
-lib64/vendor.display.color@1.0.so|9e2734492cc02d73c5ccfc9b76a43517138c6342
-lib64/vendor.display.config@1.0.so|cc4ab2a6435755d8bd7106e5536e93ecac141770
-lib64/vendor.display.postproc@1.0.so|3a1f972285b455fbd4a0b00373688a6b55e1789e
-lib64/vendor.qti.hardware.qdutils_disp@1.0.so|d0d379b2562702d47f1fc39935d9395473c6d598
-vendor/lib/libdisp-aba.so|93634695d87d19f5874fdebde3d6c6f84a3bb17e
-vendor/lib/libsd_sdk_display.so|52d09ebcc6d61e894562a3357bba3bd88df3571c
-vendor/lib/libmm-abl.so|3f029a728e3a115ce65f33629b1174e1811cb1d5
-vendor/lib/libmm-abl-oem.so|e703731e15a9139ca661290d4497ce6f0eee5bd3
-vendor/lib/libmm-als.so|121eabb35d3f29112e7fd553e1b37f1f7cafa33a
-vendor/lib/libmm-disp-apis.so|9a35b2438adb7ece7f966914f702c3e799f0b076
-vendor/lib/libmm-qdcm.so|ca723c7ff409ae127fe584df3af48019ef7abad6
-vendor/lib/vendor.display.color@1.0_vendor.so|8834c23df5d857a8da6e71f442d06d2450ff6384
-vendor/lib/vendor.display.config@1.0_vendor.so|3f4cd261bbfdc63689bddf50306e855e5d4b5ab5
-vendor/lib/vendor.display.postproc@1.0_vendor.so|2c8f3b41f26c7a5ae3854be54ec2d707d433c71d
-vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so|ab058a7ef76e458a633cf5868049584c1b4c3708
 vendor/lib64/libdisp-aba.so|7d0e303b59da7b4e8382f1cbb1482ef040da1475
-vendor/lib64/libsd_sdk_display.so|14f27fb4bae0c8982b268224ee65e554237ea820
 vendor/lib64/libmm-abl.so|57f7d506ad220c211b7ef24a3d315cfa65ef5b7d
 vendor/lib64/libmm-abl-oem.so|4e69f1af89b6c4f9a640a484b9140d5f5019b1ca
 vendor/lib64/libmm-als.so|b499ee603273a5756b0c706c35e143fc0e67e1b0
 vendor/lib64/libmm-disp-apis.so|73f3a16c73f75da54bfdb26f57fafb86304bfddb
 vendor/lib64/libmm-qdcm.so|a20bea4d0ebd1b6ffce9b56e535f5f83a5ef5c3e
-vendor/lib64/vendor.display.color@1.0_vendor.so|ed01bf4a3c0d0a61a0fc450998316d9f1237eb4a
-vendor/lib64/vendor.display.config@1.0_vendor.so|e3ad3edfe365dd48d433ef89b93d48994438f9ac
-vendor/lib64/vendor.display.postproc@1.0_vendor.so|70fefcb8e9cc0948b5df63fd83b4eab4677df1c6
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so|2f12e412e164d93a97564d8ec9250f9ca1150326
 
 # Qualcomm framework
 bin/irsc_util:vendor/bin/irsc_util
