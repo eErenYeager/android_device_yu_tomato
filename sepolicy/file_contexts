@@ -21,6 +21,8 @@
 #perf hal
 /(vendor|system/vendor)/bin/hw/vendor\.qti\.hardware\.perf@2\.0-service       u:object_r:hal_perf_default_exec:s0
 
+# Device nodes
+/dev/stune(/.*)?                                            u:object_r:cgroup:s0
 
 
 

@@ -22,6 +22,7 @@ ro.lmk.upgrade_pressure=40
 ro.lmk.downgrade_pressure=60
 ro.lmk.kill_heaviest_task=false
 ro.statsd.enable=true
+-ro.lmk.use_psi=false
 
 # set threshold to filter unused apps
 pm.dexopt.downgrade_after_inactive_days=10
